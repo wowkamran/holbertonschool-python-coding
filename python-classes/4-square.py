@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Module that defines a Square class."""
 
-
 class Square:
     """Class that represents a square."""
 
@@ -32,6 +31,6 @@ class Square:
         if self.__size == 0:
             print("")
             return
-        
+
         for _ in range(self.__size):
             print("#" * self.__size)
